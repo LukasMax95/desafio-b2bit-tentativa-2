@@ -4,6 +4,7 @@ import { useNavigate } from "react-router"
 import { v4 } from "uuid";
 import './global_style.css';
 import DefaultImage from '../assets/synchro highway1.jfif';
+import B2bitLogo from '../assets/B2bit Logo.png';
 
 
 
@@ -43,7 +44,10 @@ const NewUser:React.FC = ()=>{
     return(
         <>
         <div className="card">
-            <h1>Sign Up Page<br/><b>B2bit Challenge</b></h1>
+            <div className="b2bit">
+                <img src={B2bitLogo} className='logo' alt="B2Bit Logo"/>
+                <h1>Sign Up Page</h1>
+            </div>
             <div className="b2bit">
                 <input 
                     type="file" 

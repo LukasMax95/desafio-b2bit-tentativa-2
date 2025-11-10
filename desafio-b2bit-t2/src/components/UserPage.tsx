@@ -2,6 +2,7 @@ import React from "react";
 import { useSearchParams, useNavigate } from "react-router";
 import './global_style.css';
 import DefaultImage from '../assets/synchro highway1.jfif';
+import B2bitLogo from '../assets/B2bit Logo.png';
 
 
 const UserPage:React.FC = () => {
@@ -42,7 +43,6 @@ const UserPage:React.FC = () => {
     return(
         <>
         <div className="card">
-            <h1>User Page<br/><b>B2bit Challenge</b></h1>
             <div className="b2bit">
                 <input 
                     type="file" 

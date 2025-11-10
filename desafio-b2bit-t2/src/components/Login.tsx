@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
+import B2bitLogo from '../assets/B2bit Logo.png';
 import './global_style.css';
 
 
@@ -26,7 +27,10 @@ const Login: React.FC = () => {
     return(
         <>
         <div className="card">
-            <h1>Login Page<br/><b>B2bit Challenge</b></h1>
+            <div className="b2bit">
+                <img src={B2bitLogo} className='logo' alt="B2Bit Logo"/>
+                <h1>Sign In Page</h1>
+            </div>
             <input
                 type="text"
                 placeholder="Email"
